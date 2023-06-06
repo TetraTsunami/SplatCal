@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "splatoon-calendar",
+  "version": "1.0.0",
+  "description": "Creates an importable calendar for limited-time Splatoon 3 events like Splatfests, Big Runs, and Challenges",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Splatoon",
+    "calendar"
+  ],
+  "author": "Sam Nesler",
+  "license": "MIT",
+  "dependencies": {
+    "ical-generator": "^4.1.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.1"
+  }
+}
